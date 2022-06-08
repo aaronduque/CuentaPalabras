@@ -26,7 +26,7 @@ public class Main {
                 + " Se ruega probar su veracidad, de acuerdo con lo acordado antes de la prueba");
 
         for (Map.Entry<String, Integer> entry : mapaPalabras.entrySet()) {
-            System.out.println("Palabra: " + entry.getKey() + " -- Nº Repeticiones: " + entry.getValue());
+            System.out.println("Palabra: " + entry.getKey() + " -- Nº Repeticiones: " + entry.getValue()); 
         }
 
     }
